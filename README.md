@@ -5,15 +5,8 @@ Base: https://api.autosnipe.ai/sniper-api/
 
 After login 
 
-1. Create API Key / Secret by using the API:
-make a GET Request to /auth/getAPICredentials
-Maximun 5 API Keys/Secrets can be generated for a user.
-
-2. To Deactivate the API Key / Secret 
-make a GET Request to /auth/deactivateAPIKey
-
-3. To Retrive the API Key / Secret list
-make a GET Request to /auth/getAPIKeyList
+1. Create API Key / Secret on Autosnipe website
+2. Maximun 5 API Keys/Secrets can be generated for a user.
 
 Once the user has the API KEY AND SECRET, it can be used to make the following requests using the autosnipe_sdk
 
