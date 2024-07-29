@@ -13,7 +13,7 @@ class autosnipeApi{
     
     constructor(data){
         
-        this.endPoint = "https://api.autosnipe.ai/sniper-api-test";
+        this.endPoint = "https://api.autosnipe.ai/sniper-api";
         this.apiKeys = {
             apiKey: '',
             apiSecret: ''
